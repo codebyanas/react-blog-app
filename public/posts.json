@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "title": "React Compiler Beta Release",
+    "content": "We announced an experimental release of React Compiler at React Conf 2024. We've made a lot of progress since then, and in this post we want to share what's next for React Compiler...",
+    "fullContent": "<p>The React team is excited to share new updates:</p><ol><li>We’re publishing React Compiler Beta today, so that early adopters and library maintainers can try it and provide feedback.</li><li>We’re officially supporting React Compiler for apps on React 17+, through an optional <code>react-compiler-runtime</code> package.</li><li>We’re opening up public membership of the React Compiler Working Group to prepare the community for gradual adoption of the compiler.</li></ol>",
+    "date": "October 21, 2024"
+  }
+  ,
+  {
+    "id": 2,
+    "title": "React Conf 2024 Recap",
+    "content": "Last week we hosted React Conf 2024, a two-day conference in Henderson, Nevada where 700+ attendees gathered in-person to discuss the latest in UI engineering. This was our first in-person conference since 2019, and we were thrilled to be able to bring the community...",
+    "fullContent": "At React Conf 2024, we announced the React 19 RC, the React Native New Architecture Beta, and an experimental release of the React Compiler. The community also took the stage to announce React Router v7, Universal Server Components in Expo Router, React Server Components in RedwoodJS, and much more. The entire day 1 and day 2 streams are available online. In this post, we’ll summarize the talks and announcements from the event.",
+    "date": "May 22, 2024"
+  },
+  {
+    "id": 3,
+    "title": "React 19 RC",
+    "content": "In the React 19 RC Upgrade Guide, we shared step-by-step instructions for upgrading your app to React 19. In this post, we'll give an overview of the new features in React 19, and how you can adopt them ...",
+    "fullContent": "In our React 19 RC Upgrade Guide, we shared step-by-step instructions for upgrading your app to React 19. In this post, we’ll give an overview of the new features in React 19. <p> A common use case in React apps is to perform a data mutation and then update state in response. For example, when a user submits a form to change their name, you will make an API request, and then handle the response. In the past, you would need to handle pending states, errors, optimistic updates, and sequential requests manually.</p>",
+    "date": "April 25, 2024"
+  },
+  {
+    "id": 4,
+    "title": "React 19 RC Upgrade Guide",
+    "content": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible, and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading libraries to React 19 ...",
+    "fullContent": "<p>React 18.3 has also been published:</p> <p>To help make the upgrade to React 19 easier, we’ve published a <code>react@18.3</code> release that is identical to 18.2 but adds warnings for deprecated APIs and other changes that are needed for React 19.<p/> <p>We recommend upgrading to React 18.3 first to help identify any issues before upgrading to React 19.<p/> <p>For a list of changes in 18.3 see the Release Notes.<p/>",
+    "date": "April 25, 2024"
+  },
+  {
+    "id": 5,
+    "title": "React Labs: What We've Been Working On – February 2024",
+    "content": "In React Labs posts, we write about projects in active research and development. Since our last update, we've made significant progress on React Compiler, new features, and React 19, and we'd like to share what we learned.",
+    "fullContent": "<p>React Compiler is no longer a research project: the compiler now powers instagram.com in production, and we are working to ship the compiler across additional surfaces at Meta and to prepare the first open source release.<p/> <p>As discussed in our previous post, React can sometimes re-render too much when state changes. Since the early days of React our solution for such cases has been manual memoization. In our current APIs, this means applying the <code>useMemo</code>, <code>useCallback</code>, and <code>memo</code> APIs to manually tune how much React re-renders on state changes. But manual memoization is a compromise. It clutters up our code, is easy to get wrong, and requires extra work to keep up to date.<p/>",
+    "date": "February 15, 2024"
+  },
+  {
+    "id": 6,
+    "title": "React Canaries: Enabling Incremental Feature Rollout Outside Meta",
+    "content": "Traditionally, new React features used to only be available at Meta first, and land in the open source releases later. We'd like to offer the React community an option to adopt individual new features as soon as their design is close to final—similar to how Meta uses React internally.",
+    "fullContent": "We’d like to offer the React community an option to adopt individual new features as soon as their design is close to final, before they’re released in a stable version—similar to how Meta has long used bleeding-edge versions of React internally. We are introducing a new officially supported Canary release channel. It lets curated setups like frameworks decouple adoption of individual React features from the React release schedule.",
+    "date": "May 3, 2023"
+  },
+  {
+    "id": 7,
+    "title": "React Labs: What We've Been Working On – March 2023",
+    "content": "In React Labs posts, we write about projects in active research and development. Since our last update, we've made significant progress on React Server Components, Asset Loading, Optimizing Compiler, Offscreen Rendering, and Transition Tracing, and we'd like to share what we learned.",
+    "fullContent": "<p>React Server Components (or RSC) is a new application architecture designed by the React team.</p> <p>We’ve first shared our research on RSC in an introductory talk and an RFC. To recap them, we are introducing a new kind of component—Server Components—that run ahead of time and are excluded from your JavaScript bundle. Server Components can run during the build, letting you read from the filesystem or fetch static content. They can also run on the server, letting you access your data layer without having to build an API. You can pass data by props from Server Components to the interactive Client Components in the browser.</p>",
+    "date": "March 22, 2023"
+  },
+  {
+    "id": 8,
+    "title": "Introducing react.dev",
+    "content": "Today we are thrilled to launch react.dev, the new home for React and its documentation. In this post, we would like to give you a tour of the new site.",
+    "fullContent": "<p>New site, new domain, new homepage <p/> <p>First, a little bit of housekeeping.</p> <p>To celebrate the launch of the new docs and, more importantly, to clearly separate the old and the new content, we’ve moved to the shorter <code>react.dev</code> domain. The old <code>reactjs.org</code> domain will now redirect here.</p> <p>The old React docs are now archived at <code>legacy.reactjs.org</code>. All existing links to the old content will automatically redirect there to avoid “breaking the web”, but the legacy site will not get many more updates.</p> <p>Believe it or not, React will soon be ten years old. In JavaScript years, it’s like a whole century! We’ve <code>refreshed the React homepage</code> to reflect why we think React is a great way to create user interfaces today, and updated the getting started guides to more prominently mention modern React-based frameworks.</p> <p>If you haven’t seen the new homepage yet, check it out!</p>",
+    "date": "March 16, 2023"
+  }
+]
